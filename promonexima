@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Запуск продаж в Китае за 90 дней — с цифрами и контролем | NEXIMA Hub</title>
+  <meta name="description" content="Douyin · Tmall · JD · Xiaohongshu · WeChat · Taobao — выбираем каналы по экономике. Начинаем с проверки спроса, затем — магазин, контент и продажи." />
+  <link rel="canonical" href="https://nexima.com/ru " />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#0A56D8" />
+
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:title" content="NEXIMA Hub — запуск продаж в Китае за 90 дней, с цифрами и контролем" />
+  <meta property="og:description" content="Выбираем каналы по экономике. Начинаем с проверки спроса, затем — магазин, контент и продажи." />
+  <meta property="og:image" content="https://nexima.com/assets/og-nexima.jpg " />
+  <meta property="og:url" content="https://nexima.com/ru " />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="NEXIMA Hub — запуск продаж в Китае за 90 дней" />
+  <meta name="twitter:description" content="Проверка спроса → магазин → контент → продажи. Управление метриками каждую неделю." />
+  <meta name="twitter:image" content="https://nexima.com/assets/og-nexima.jpg " />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg ' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230A56D8'/><text x='50' y='64' text-anchor='middle' font-size='56' font-family='Arial' fill='white'>N</text></svg>">
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org ",
+    "@type":"Organization",
+    "name":"NEXIMA Hub",
+    "url":"https://nexima.com ",
+    "logo":"https://nexima.com/assets/NEXIMA.png ",
+    "contactPoint":{
+      "@type":"ContactPoint",
+      "email":"hello@nexima.com",
+      "telephone":"+7-495-000-00-00",
+      "contactType":"Sales",
+      "areaServed":["RU","CN"],
+      "availableLanguage":["Russian","Chinese","English"]
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com ">
+  <link rel="preconnect" href="https://fonts.gstatic.com " crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400 ;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css " rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css ">
+
+  <style>
+    :root{
+      --brand:#0A56D8;--brand2:#0B63F0;--black:#000;--white:#fff;--gray:#f5f7fa;
+      --muted:rgba(0,0,0,.65);--tr:all .35s cubic-bezier(.25,.46,.45,.94);
+      --r:12px;--r2:22px;--safeB:env(safe-area-inset-bottom,0px);--safeT:env(safe-area-inset-top,0px);--h:78px;
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{font-family:Inter,-apple-system,BlinkMacSystemFont,sans-serif;background:var(--white);color:var(--black);line-height:1.6;overflow-x:hidden;padding-bottom:86px}
+    h1,h2,h3,h4{font-family:"Space Grotesk",Inter,sans-serif;font-weight:800;line-height:1.1}
+    .container{max-width:1200px;margin:0 auto;padding:0 20px}
+    .pill{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:999px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(10px);color:rgba(255,255,255,.95);font-weight:850;letter-spacing:.18px;font-size:12px;user-select:none}
+
+    .scroll-progress{position:fixed;top:0;left:0;width:0;height:4px;background:var(--brand);z-index:1100;transition:width .1s}
+
+    header{position:fixed;top:0;width:100%;background:rgba(255,255,255,.92);backdrop-filter:blur(16px);z-index:1050;transition:var(--tr);border-bottom:1px solid rgba(10,86,216,.10);padding-top:var(--safeT)}
+    header.scrolled{background:rgba(10,86,216,.92);border-bottom:1px solid rgba(255,255,255,.16)}
+    nav{display:flex;justify-content:space-between;align-items:center;padding:16px 0;gap:16px;min-height:var(--h)}
+    .logo{display:inline-flex;align-items:center;gap:10px;text-decoration:none;min-width:240px}
+    .brand-mark{width:40px;height:40px;border-radius:12px;display:inline-flex;align-items:center;justify-content:center;background:rgba(10,86,216,.10);border:1px solid rgba(10,86,216,.18);font-weight:1000;color:var(--brand);box-shadow:0 10px 28px rgba(0,0,0,.10)}
+    header.scrolled .brand-mark{background:rgba(255,255,255,.10);border-color:rgba(255,255,255,.22);color:#fff}
+    .logo-word{font-family:"Space Grotesk",Inter,sans-serif;font-weight:950;letter-spacing:-.4px;font-size:18px;color:var(--black);line-height:1.05}
+    .logo-word small{display:block;font-weight:700;opacity:.78;font-size:12px;letter-spacing:.2px;margin-top:2px}
+    header.scrolled .logo-word{color:#fff}
+    header.scrolled .logo-word small{opacity:.9}
+
+    .nav-links{display:flex;gap:30px;list-style:none;align-items:center;flex-wrap:wrap}
+    .nav-links a{text-decoration:none;color:var(--black);font-weight:650;transition:var(--tr);font-size:15px;position:relative;opacity:.92;white-space:nowrap}
+    header.scrolled .nav-links a{color:rgba(255,255,255,.92)}
+    .nav-links a:after{content:"";position:absolute;bottom:-6px;left:0;width:0;height:2px;background:currentColor;transition:width .25s ease;opacity:.8}
+    .nav-links a:hover:after{width:100%}
+
+    .mobile-menu-toggle{display:none;background:none;border:none;font-size:22px;cursor:pointer;color:var(--black);z-index:1060;padding:10px;border-radius:10px;transition:var(--tr)}
+    header.scrolled .mobile-menu-toggle{color:rgba(255,255,255,.95)}
+    .mobile-menu-toggle:hover{background:rgba(0,0,0,.06)}
+    header.scrolled .mobile-menu-toggle:hover{background:rgba(255,255,255,.12)}
+
+    .mobile-overlay{position:fixed;inset:0;background:rgba(0,0,0,.45);opacity:0;pointer-events:none;z-index:1040;transition:opacity .25s ease}
+    .mobile-overlay.open{opacity:1;pointer-events:auto}
+    .mobile-menu{position:fixed;top:0;right:-100%;width:min(86%,360px);height:100vh;background:#0b0f18;z-index:1055;padding:96px 28px 28px;transition:right .35s ease;box-shadow:-30px 0 80px rgba(0,0,0,.30)}
+    .mobile-menu.open{right:0}
+    .mobile-menu .nav-links{display:flex;flex-direction:column;gap:18px;align-items:flex-start}
+    .mobile-menu .nav-links a{color:rgba(255,255,255,.92);font-size:18px;opacity:1}
+    .mobile-menu .nav-links a:after{display:none}
+    .mobile-top{position:absolute;top:22px;left:22px;right:22px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .mobile-close{border:none;background:rgba(255,255,255,.08);color:rgba(255,255,255,.92);cursor:pointer;padding:10px 12px;border-radius:12px;font-size:16px;transition:var(--tr)}
+    .mobile-close:hover{background:rgba(255,255,255,.14)}
+
+    .hero{margin-top:calc(var(--h) + var(--safeT));padding:140px 0 120px;text-align:center;position:relative;background:linear-gradient(135deg,var(--brand) 0%,var(--brand2) 100%);overflow:hidden}
+    .hero-bg{position:absolute;inset:0;background:radial-gradient(circle at 20% 30%, rgba(255,255,255,.10) 0%, transparent 40%),radial-gradient(circle at 80% 70%, rgba(255,255,255,.08) 0%, transparent 40%);pointer-events:none}
+    .hero-content{position:relative;z-index:2}
+    .hero-brand{display:inline-flex;align-items:center;justify-content:center;gap:12px;margin:0 auto 22px;padding:10px 14px;border-radius:999px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(10px)}
+    .hero-brand img{height:34px;width:auto;border-radius:10px;background:#fff;box-shadow:0 10px 28px rgba(0,0,0,.18)}
+    .hero h1{font-size:clamp(2.2rem,4vw,3.35rem);margin-bottom:16px;color:#fff;letter-spacing:-1.4px;line-height:1.18;text-transform:uppercase}
+
+    .hero-logos{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:center;margin:0 auto 14px;max-width:980px}
+    .slogo{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:10px 12px;border-radius:16px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(10px);transition:var(--tr)}
+    .slogo:hover{transform:translateY(-2px);background:rgba(255,255,255,.14)}
+    .slogo svg{width:28px;height:28px;display:block}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+    .hero-lines{max-width:980px;margin:0 auto 34px}
+    .hero-lines p{font-size:clamp(1.05rem,2.1vw,1.35rem);color:rgba(255,255,255,.95);font-weight:700;line-height:1.45;letter-spacing:-.25px}
+    .hero-lines p + p{margin-top:6px;color:rgba(255,255,255,.92);font-weight:650}
+
+    .cta-row{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;align-items:center}
+    .cta-button{background:#fff;color:var(--brand);padding:18px 52px;border:none;border-radius:var(--r);font-size:18px;font-weight:900;cursor:pointer;transition:var(--tr);display:inline-flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 12px 44px rgba(0,0,0,.22);gap:10px;min-width:280px;white-space:nowrap}
+    .cta-button:hover{transform:translateY(-3px);box-shadow:0 18px 58px rgba(0,0,0,.28);background:rgba(255,255,255,.96)}
+    .cta-secondary{background:rgba(255,255,255,.12);color:rgba(255,255,255,.96);border:1px solid rgba(255,255,255,.20);box-shadow:none;min-width:240px}
+    .cta-secondary:hover{background:rgba(255,255,255,.16);transform:translateY(-2px);box-shadow:none}
+
+    .no-aos [data-aos]{opacity:1 !important;transform:none !important}
+    @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{animation:none !important;transition:none !important}.no-aos [data-aos]{opacity:1 !important;transform:none !important}}
+
+    .trust-bar{background:var(--gray);padding:40px 0;text-align:center}
+    .trust-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;align-items:stretch}
+    .trust-item{display:grid;grid-template-columns:34px 1fr;gap:14px;align-items:center;padding:16px;border-radius:16px;background:rgba(255,255,255,.75);border:1px solid rgba(0,0,0,.05);box-shadow:0 6px 20px rgba(0,0,0,.06);min-height:76px;text-align:left}
+    .trust-item i{color:var(--brand);font-size:22px;width:34px;text-align:center}
+    .trust-item span{font-size:14px;font-weight:700;color:rgba(0,0,0,.86);line-height:1.35}
+
+    .section-title{font-size:clamp(2.1rem,4vw,3.4rem);margin-bottom:20px;text-align:center;letter-spacing:-1.4px}
+    .section-subtitle{font-size:1.2rem;text-align:center;margin:0 auto 40px;max-width:860px;line-height:1.55}
+
+    .platforms{padding:90px 0;background:#fff}
+    .platforms .section-subtitle{color:var(--muted)}
+    .platforms-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;align-items:stretch;margin-top:22px}
+    .platform-card{background:rgba(255,255,255,.92);border-radius:22px;border:1px solid rgba(0,0,0,.06);box-shadow:0 10px 34px rgba(0,0,0,.08);overflow:hidden;display:flex;flex-direction:column;min-height:230px;transition:var(--tr)}
+    .platform-card:hover{transform:translateY(-6px);box-shadow:0 18px 58px rgba(0,0,0,.12)}
+    .platform-head{padding:20px 18px;background:linear-gradient(135deg, rgba(10,86,216,.12) 0%, rgba(10,86,216,.04) 100%);border-bottom:1px solid rgba(0,0,0,.06);display:flex;gap:12px;align-items:center}
+    .pmark{width:44px;height:44px;border-radius:16px;display:inline-flex;align-items:center;justify-content:center;background:rgba(10,86,216,.10);border:1px solid rgba(10,86,216,.14);box-shadow:0 10px 24px rgba(0,0,0,.06);flex:0 0 44px}
+    .pmark svg{width:26px;height:26px}
+    .platform-head h3{font-size:18px;font-weight:950;letter-spacing:-.3px;color:rgba(0,0,0,.90)}
+    .platform-body{padding:18px;color:rgba(0,0,0,.68);font-weight:650;line-height:1.45;flex:1}
+
+    .problem-section{background:var(--black);color:#fff;padding:140px 0}
+    .problem-section .section-subtitle{color:rgba(255,255,255,.74)}
+    .what-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:26px;align-items:stretch}
+    .what-item{
+      --accent:255 255 255;
+      padding:28px 22px;
+      background:rgba(255,255,255,.10);
+      border-radius:var(--r2);
+      border:1px solid rgba(var(--accent),.40);
+      transition:var(--tr);
+      position:relative;overflow:hidden;
+      display:flex;flex-direction:column;gap:10px;
+    }
+    .what-item:before{content:"";position:absolute;top:0;left:0;width:100%;height:4px;background:rgba(var(--accent),.55);transform:scaleX(0);transform-origin:left;transition:transform .35s ease}
+    .what-item:hover{transform:translateY(-6px);background:rgba(255,255,255,.13);border-color:rgba(var(--accent),.55)}
+    .what-item:hover:before{transform:scaleX(1)}
+    .what-item i{
+      font-size:44px;color:rgb(var(--accent));margin-bottom:6px;display:block;height:52px;width:52px;line-height:52px;text-align:center;border-radius:16px;
+      background:rgba(var(--accent),.18);
+      border:1px solid rgba(var(--accent),.45)
+    }
+    .what-item h3{font-size:20px;font-weight:900;letter-spacing:-.2px}
+    .what-item p{color:rgba(255,255,255,.82);line-height:1.5;font-weight:650;margin-top:2px}
+    .what-item ul{margin-top:6px;padding-left:18px;color:rgba(255,255,255,.82);font-weight:650;line-height:1.7}
+    .what-item ul li{margin:6px 0}
+
+    .block-title{margin-top:70px;text-align:center;font-size:clamp(1.6rem,2.6vw,2.2rem);letter-spacing:-.8px;font-weight:950}
+    .block-subtitle{text-align:center;margin:12px auto 0;max-width:900px;color:rgba(255,255,255,.74);font-weight:650}
+
+    .process{background:#fff;padding:120px 0}
+    .process .section-subtitle{color:var(--muted)}
+    .steps-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;align-items:stretch;margin-top:26px}
+    .step-card{background:rgba(255,255,255,.92);border-radius:22px;border:1px solid rgba(0,0,0,.06);box-shadow:0 10px 34px rgba(0,0,0,.08);padding:22px 18px;display:flex;flex-direction:column;gap:12px;min-height:260px;transition:var(--tr)}
+    .step-card:hover{transform:translateY(-6px);box-shadow:0 18px 58px rgba(0,0,0,.12)}
+    .step-num{font-size:36px;font-weight:1000;letter-spacing:-.8px;color:var(--brand);line-height:1}
+    .step-card h3{font-size:18px;font-weight:950;letter-spacing:-.3px;color:rgba(0,0,0,.90)}
+    .step-card ul{padding-left:18px;color:rgba(0,0,0,.70);font-weight:650;line-height:1.7}
+
+    .packages{background:#fff;padding:120px 0}
+    .packages .section-subtitle{color:var(--muted)}
+    .packages-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;align-items:stretch;margin-top:26px}
+    .package-card{background:rgba(255,255,255,.92);border-radius:22px;border:1px solid rgba(0,0,0,.06);box-shadow:0 10px 34px rgba(0,0,0,.08);overflow:hidden;display:flex;flex-direction:column;min-height:360px;transition:var(--tr)}
+    .package-card:hover{transform:translateY(-6px);box-shadow:0 18px 58px rgba(0,0,0,.12)}
+    .package-head{padding:20px 18px;background:linear-gradient(135deg, rgba(10,86,216,.12) 0%, rgba(10,86,216,.04) 100%);border-bottom:1px solid rgba(0,0,0,.06);display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+    .package-head .left{display:flex;flex-direction:column;gap:6px}
+    .package-no{width:44px;height:44px;border-radius:16px;display:inline-flex;align-items:center;justify-content:center;background:rgba(10,86,216,.10);border:1px solid rgba(10,86,216,.14);color:var(--brand);font-weight:1000;box-shadow:0 10px 24px rgba(0,0,0,.06);flex:0 0 44px}
+    .package-head h3{font-size:18px;font-weight:950;letter-spacing:-.3px;color:rgba(0,0,0,.90)}
+    .package-head .subtitle{color:rgba(0,0,0,.62);font-weight:700;font-size:13px;line-height:1.35}
+    .package-body{padding:18px;display:flex;flex-direction:column;gap:12px;flex:1}
+    .package-body h4{font-size:13px;text-transform:uppercase;letter-spacing:.16px;font-weight:950;color:rgba(0,0,0,.72)}
+    .package-body ul{padding-left:18px;color:rgba(0,0,0,.70);font-weight:650;line-height:1.7}
+    .package-result{margin-top:auto;padding-top:14px;border-top:1px solid rgba(0,0,0,.08);color:rgba(0,0,0,.76);font-weight:800}
+    .package-cta{margin-top:12px;display:flex;gap:10px;flex-wrap:wrap}
+    .btn-mini{padding:12px 14px;border-radius:14px;border:1px solid rgba(0,0,0,.08);background:rgba(0,0,0,.03);font-weight:900;font-size:12px;cursor:pointer;text-decoration:none;color:rgba(0,0,0,.86);transition:var(--tr);display:inline-flex;align-items:center;gap:8px}
+    .btn-mini:hover{transform:translateY(-2px);background:rgba(0,0,0,.05)}
+    .btn-mini.primary{background:var(--brand);border-color:rgba(10,86,216,.35);color:#fff;box-shadow:0 10px 30px rgba(10,86,216,.25)}
+    .btn-mini.primary:hover{background:var(--brand2)}
+
+    .cases{background:var(--gray);padding:120px 0}
+    .cases .section-title{color:var(--black);margin-bottom:18px}
+    .cases .section-subtitle{color:rgba(0,0,0,.64);margin:0 auto 44px}
+    .cases-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;align-items:stretch}
+    .case-card{background:rgba(255,255,255,.90);border-radius:22px;border:1px solid rgba(0,0,0,.06);box-shadow:0 10px 34px rgba(0,0,0,.08);overflow:hidden;display:flex;flex-direction:column;min-height:360px;transition:var(--tr)}
+    .case-card:hover{transform:translateY(-6px);box-shadow:0 18px 58px rgba(0,0,0,.12)}
+    .case-head{padding:20px 18px;background:linear-gradient(135deg, rgba(10,86,216,.12) 0%, rgba(10,86,216,.04) 100%);border-bottom:1px solid rgba(0,0,0,.06);display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+    .case-head h3{font-size:18px;font-weight:950;letter-spacing:-.3px;color:rgba(0,0,0,.88);margin-bottom:6px}
+    .case-head p{color:rgba(0,0,0,.62);font-weight:650;line-height:1.35;font-size:13px;max-width:520px}
+    .case-badge{display:inline-flex;padding:10px 12px;border-radius:999px;border:1px solid rgba(0,0,0,.08);background:rgba(0,0,0,.03);font-weight:950;font-size:12px;white-space:nowrap;height:fit-content;color:rgba(0,0,0,.78)}
+    .case-body{padding:18px;display:grid;gap:12px;flex:1}
+    .case-body .desc{color:rgba(0,0,0,.72);font-weight:650;line-height:1.55}
+    .case-body ul{padding-left:18px;color:rgba(0,0,0,.72);font-weight:650;line-height:1.65}
+    .metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;align-items:stretch}
+    .metric{border-radius:16px;border:1px solid rgba(0,0,0,.06);background:rgba(0,0,0,.02);padding:12px}
+    .metric .k{font-weight:900;font-size:12px;color:rgba(0,0,0,.62);letter-spacing:.12px}
+    .metric .v{font-weight:1000;font-size:16px;color:rgba(0,0,0,.88);margin-top:4px;letter-spacing:-.2px}
+    .case-foot{margin-top:auto;padding:14px 18px;border-top:1px solid rgba(0,0,0,.06);display:flex;justify-content:space-between;gap:10px;color:rgba(0,0,0,.58);font-weight:700;font-size:12px}
+
+    .faq{background:#fff;padding:120px 0}
+    .faq .section-subtitle{color:var(--muted)}
+    .faq-list{max-width:940px;margin:0 auto;display:grid;gap:12px;margin-top:26px}
+    .faq-item{border-radius:20px;border:1px solid rgba(0,0,0,.08);background:rgba(0,0,0,.02);overflow:hidden;box-shadow:0 8px 26px rgba(0,0,0,.06)}
+    .faq-q{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:18px;cursor:pointer;user-select:none}
+    .faq-q span{font-weight:950;letter-spacing:-.25px;color:rgba(0,0,0,.86)}
+    .faq-q i{color:rgba(0,0,0,.60);transition:transform .2s ease}
+    .faq-a{padding:0 18px 18px;color:rgba(0,0,0,.70);font-weight:650;line-height:1.6;display:none}
+    .faq-item.open .faq-a{display:block}
+    .faq-item.open .faq-q i{transform:rotate(180deg)}
+
+    .cta{background:linear-gradient(135deg,var(--brand) 0%,var(--brand2) 100%);color:#fff;padding:120px 0;position:relative;overflow:hidden}
+    .cta:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 20% 30%, rgba(255,255,255,.10) 0%, transparent 40%),radial-gradient(circle at 80% 70%, rgba(255,255,255,.08) 0%, transparent 40%);pointer-events:none}
+    .cta .container{position:relative;z-index:2}
+    .cta-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:22px;align-items:start;margin-top:26px}
+    .cta-copy h2{font-size:clamp(2rem,3.5vw,3rem);letter-spacing:-1.2px;margin-bottom:14px}
+    .cta-copy p{color:rgba(255,255,255,.92);font-weight:650;line-height:1.5;max-width:860px}
+    .cta-panel{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.18);border-radius:22px;padding:18px;backdrop-filter:blur(14px);box-shadow:0 18px 60px rgba(0,0,0,.18)}
+    .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .form-group{display:flex;flex-direction:column;gap:8px}
+    .form-group label{font-weight:850;font-size:12px;color:rgba(255,255,255,.92);letter-spacing:.14px}
+    input,select,textarea{width:100%;padding:14px;border-radius:14px;border:1px solid rgba(255,255,255,.18);background:rgba(0,0,0,.18);color:#fff;outline:none;transition:var(--tr);font-weight:700}
+    input::placeholder,textarea::placeholder{color:rgba(255,255,255,.65)}
+    input:focus,select:focus,textarea:focus{border-color:rgba(255,255,255,.35);background:rgba(0,0,0,.22);box-shadow:0 14px 40px rgba(0,0,0,.18)}
+    textarea{min-height:110px;resize:vertical}
+    .check-row{display:flex;align-items:flex-start;gap:10px;margin-top:10px;padding-top:12px;border-top:1px solid rgba(255,255,255,.14)}
+    .check-row input{width:18px;height:18px;margin-top:2px}
+    .check-row label{font-weight:700;color:rgba(255,255,255,.88);font-size:12px;line-height:1.35}
+    .helper{margin-top:12px;padding-top:14px;border-top:1px solid rgba(255,255,255,.14)}
+    .helper p{font-size:12px;color:rgba(255,255,255,.86);font-weight:750;margin:0 0 8px;display:flex;align-items:center;gap:10px}
+
+    footer{background:#0b0f18;color:rgba(255,255,255,.80);padding:60px 0}
+    .footer-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:18px;align-items:start}
+    footer h4{color:rgba(255,255,255,.95);font-weight:950;margin-bottom:10px;letter-spacing:-.3px}
+    footer a{color:rgba(255,255,255,.88);text-decoration:none;font-weight:800}
+    footer a:hover{text-decoration:underline}
+    .footer-note{margin-top:24px;padding-top:16px;border-top:1px solid rgba(255,255,255,.10);color:rgba(255,255,255,.66);font-weight:650;font-size:12px}
+
+    .sticky-cta{position:fixed;left:16px;right:16px;bottom:calc(16px + var(--safeB));background:rgba(255,255,255,.92);border:1px solid rgba(0,0,0,.08);border-radius:22px;box-shadow:0 18px 60px rgba(0,0,0,.18);padding:14px 16px;display:none;align-items:center;justify-content:space-between;gap:12px;z-index:1090;backdrop-filter:blur(14px)}
+    .sticky-cta.show{display:flex}
+    .sticky-cta .left .title{font-weight:1000;letter-spacing:-.2px;color:rgba(0,0,0,.88);margin-bottom:2px}
+    .sticky-cta .left .sub{font-weight:750;color:rgba(0,0,0,.62);font-size:12px}
+    .sticky-cta .right{display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:flex-end}
+    .sticky-cta .right a.btn{background:var(--brand);color:#fff;padding:12px 14px;border-radius:14px;font-weight:950;text-decoration:none;border:1px solid rgba(10,86,216,.35);box-shadow:0 10px 30px rgba(10,86,216,.22);transition:var(--tr);white-space:nowrap}
+    .sticky-cta .right a.btn:hover{background:var(--brand2);transform:translateY(-2px)}
+    .sticky-cta .right a.link{font-weight:900;color:rgba(0,0,0,.72);text-decoration:none;white-space:nowrap}
+    .sticky-cta .right a.link:hover{text-decoration:underline}
+
+    @media (max-width:980px){
+      .nav-links{display:none}
+      .mobile-menu-toggle{display:inline-flex}
+      nav{padding:12px 0}
+      .cta-grid,.footer-grid{grid-template-columns:1fr}
+    }
+    @media (max-width:640px){
+      .form-grid{grid-template-columns:1fr}
+      .cta-button,.cta-secondary{width:100%;min-width:0}
+    }
+  </style>
+</head>
+
+<body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <header id="header">
+    <nav class="container" aria-label="Главная навигация">
+      <a class="logo" href="#top" aria-label="NEXIMA Hub">
+        <span class="brand-mark" aria-hidden="true">N</span>
+        <span class="logo-word">
+          NEXIMA Hub
+          <small>маркетинговое и коммуникационное агентство</small>
+        </span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#platforms">Платформы</a></li>
+        <li><a href="#audience">Для кого</a></li>
+        <li><a href="#how">Как работаем</a></li>
+        <li><a href="#packages">Пакеты</a></li>
+        <li><a href="#cases">Истории</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+
+      <button class="mobile-menu-toggle" id="mobileMenuBtn" aria-label="Открыть меню">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </button>
+    </nav>
+  </header>
+
+  <div class="mobile-overlay" id="mobileOverlay" aria-hidden="true"></div>
+  <aside class="mobile-menu" id="mobileMenu" aria-hidden="true" aria-label="Мобильное меню">
+    <div class="mobile-top">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span class="brand-mark" aria-hidden="true" style="width:34px;height:34px;border-radius:10px;box-shadow:none;background:rgba(255,255,255,.10);border-color:rgba(255,255,255,.22);color:#fff;">N</span>
+        <div style="display:flex;flex-direction:column;line-height:1.05;">
+          <span style="color:#fff;font-weight:1000;letter-spacing:-.2px;">NEXIMA Hub</span>
+          <small style="color:rgba(255,255,255,.78);font-weight:700;font-size:12px;">маркетинговое и коммуникационное агентство</small>
+        </div>
+      </div>
+      <button class="mobile-close" id="mobileCloseBtn" aria-label="Закрыть меню">
+        <i class="fas fa-xmark" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <ul class="nav-links" style="margin-top:18px;">
+      <li><a href="#platforms">Платформы</a></li>
+      <li><a href="#audience">Для кого</a></li>
+      <li><a href="#how">Как работаем</a></li>
+      <li><a href="#packages">Пакеты</a></li>
+      <li><a href="#cases">Истории</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Контакты</a></li>
+    </ul>
+
+    <div style="margin-top:26px;display:grid;gap:10px;">
+      <a class="btn-mini primary" href="#contact" style="justify-content:center;">
+        <i class="fas fa-bolt" aria-hidden="true"></i> Получить план за 48 часов
+      </a>
+      <a class="btn-mini" href="mailto:hello@nexima.com" style="justify-content:center;background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.14);color:rgba(255,255,255,.92);">
+        <i class="fas fa-envelope" aria-hidden="true"></i> hello@nexima.com
+      </a>
+    </div>
+  </aside>
+
+  <div id="top" aria-hidden="true"></div>
+
+  <section class="hero" aria-label="Главный экран">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-content">
+      <div class="hero-brand" data-aos="fade-down">
+        <img src="assets/NEXIMA.png" alt="NEXIMA Hub">
+        <span class="pill"><i class="fas fa-chart-line" aria-hidden="true"></i> С цифрами и контролем</span>
+      </div>
+
+      <h1 data-aos="fade-up">Запуск продаж в Китае за 90 дней — с цифрами и контролем</h1>
+
+      <!-- Логотипы платформ (без слэшей) -->
+      <div class="hero-logos" data-aos="fade-up" data-aos-delay="80" aria-label="Платформы">
+        <span class="slogo" title="Douyin" aria-label="Douyin">
+          <span class="sr-only">Douyin</span>
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <rect x="6" y="6" width="52" height="52" rx="14" fill="#0B0F18"/>
+            <path d="M36 18v22.5a7.5 7.5 0 1 1-6-7.35V22c6.2 6.2 11.4 8 16 8.2" fill="none" stroke="#25F4EE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M34 16v22.5a7.5 7.5 0 1 1-6-7.35V20c6.2 6.2 11.4 8 16 8.2" fill="none" stroke="#FE2C55" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+          </svg>
+        </span>
+
+        <span class="slogo" title="Tmall" aria-label="Tmall">
+          <span class="sr-only">Tmall</span>
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <rect x="6" y="6" width="52" height="52" rx="14" fill="#E60012"/>
+            <path d="M20 26h24" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+            <path d="M24 26v18M40 26v18" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+            <path d="M26 20c2-3 10-3 12 0" stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none" opacity=".9"/>
+          </svg>
+        </span>
+
+        <span class="slogo" title="JD" aria-label="JD">
+          <span class="sr-only">JD</span>
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <circle cx="32" cy="32" r="26" fill="#D6001C"/>
+            <text x="32" y="39" text-anchor="middle" font-size="18" font-family="Inter,Arial" font-weight="900" fill="#fff">JD</text>
+          </svg>
+        </span>
+
+        <span class="slogo" title="Xiaohongshu" aria-label="Xiaohongshu">
+          <span class="sr-only">Xiaohongshu</span>
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <rect x="6" y="6" width="52" height="52" rx="14" fill="#FF2D55"/>
+            <text x="32" y="39" text-anchor="middle" font-size="16" font-family="Inter,Arial" font-weight="900" fill="#fff">XHS</text>
+          </svg>
+        </span>
+
+        <span class="slogo" title="WeChat" aria-label="WeChat">
+          <span class="sr-only">WeChat</span>
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <circle cx="28" cy="30" r="18" fill="#07C160"/>
+            <circle cx="40" cy="38" r="16" fill="#07C160" opacity=".95"/>
+            <circle cx="22" cy="28" r="2.6" fill="#fff"/><circle cx="32" cy="28" r="2.6" fill="#fff"/>
+            <circle cx="35" cy="36" r="2.4" fill="#fff"/><circle cx="44" cy="36" r="2.4" fill="#fff"/>
+          </svg>
+        </span>
+
+        <span class="slogo" title="Taobao" aria-label="Taobao">
+          <span class="sr-only">Taobao</span>
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <circle cx="32" cy="32" r="26" fill="#FF6A00"/>
+            <text x="32" y="40" text-anchor="middle" font-size="18" font-family="Inter,Arial" font-weight="900" fill="#fff">TB</text>
+          </svg>
+        </span>
+      </div>
+
+      <div class="hero-lines" data-aos="fade-up" data-aos-delay="120">
+        <p>Выбираем каналы по экономике, а не по моде.</p>
+        <p>Начинаем с проверки спроса, затем — магазин, контент и продажи.</p>
+      </div>
+
+      <div class="cta-row" data-aos="fade-up" data-aos-delay="180">
+        <a href="#contact" class="cta-button"><i class="fas fa-bolt" aria-hidden="true"></i> Получить план запуска за 48 часов</a>
+        <a href="#how" class="cta-button cta-secondary"><i class="fas fa-magnifying-glass" aria-hidden="true"></i> Проверить спрос за 7 дней</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust-bar" aria-label="Доверие и условия">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item" data-aos="fade-up"><i class="fas fa-lock" aria-hidden="true"></i><span>NDA по запросу. Без спама и холодных звонков</span></div>
+        <div class="trust-item" data-aos="fade-up" data-aos-delay="60"><i class="fas fa-chart-line" aria-hidden="true"></i><span>Фокус на метриках: GMV (выручка), CAC, AOV, LTV — еженедельно</span></div>
+        <div class="trust-item" data-aos="fade-up" data-aos-delay="120"><i class="fas fa-shield-alt" aria-hidden="true"></i><span>Bonded-import: налог и пошлина — только при продаже (где применимо)</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="platforms" class="platforms">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Платформы и каналы продаж</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="80">Выбор площадки — это не “где модно”, а “где сходится экономика и доверие к категории”.</p>
+
+      <div class="platforms-grid">
+        <article class="platform-card" data-aos="fade-up">
+          <div class="platform-head">
+            <div class="pmark" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><rect x="10" y="10" width="44" height="44" rx="14" fill="#0B0F18"/><path d="M36 20v20a7 7 0 1 1-6-6.8V24c5.5 5.5 10 7 14 7.2" fill="none" stroke="#25F4EE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div><h3>Douyin</h3></div>
+          </div>
+          <div class="platform-body">Короткие видео и прямые эфиры с продажами. Быстрый тест спроса, сильная импульсная покупка.</div>
+        </article>
+
+        <article class="platform-card" data-aos="fade-up" data-aos-delay="60">
+          <div class="platform-head">
+            <div class="pmark" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><rect x="10" y="10" width="44" height="44" rx="14" fill="#E60012"/><path d="M22 28h20" stroke="#fff" stroke-width="4" stroke-linecap="round"/><path d="M26 28v16M38 28v16" stroke="#fff" stroke-width="4" stroke-linecap="round"/></svg>
+            </div>
+            <div><h3>Tmall</h3></div>
+          </div>
+          <div class="platform-body">Канал для брендов и доверия. Хорош для товаров, где важны репутация, гарантия качества и “официальность”.</div>
+        </article>
+
+        <article class="platform-card" data-aos="fade-up" data-aos-delay="120">
+          <div class="platform-head">
+            <div class="pmark" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="20" fill="#D6001C"/><text x="32" y="39" text-anchor="middle" font-size="16" font-family="Inter,Arial" font-weight="900" fill="#fff">JD</text></svg>
+            </div>
+            <div><h3>JD</h3></div>
+          </div>
+          <div class="platform-body">“Покупка без сомнений”: сильная логистика и высокий запрос на качество. Часто работает для техники и товаров с характеристиками.</div>
+        </article>
+
+        <article class="platform-card" data-aos="fade-up" data-aos-delay="180">
+          <div class="platform-head">
+            <div class="pmark" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><rect x="10" y="10" width="44" height="44" rx="14" fill="#FF2D55"/><text x="32" y="39" text-anchor="middle" font-size="14" font-family="Inter,Arial" font-weight="900" fill="#fff">XHS</text></svg>
+            </div>
+            <div><h3>Xiaohongshu</h3></div>
+          </div>
+          <div class="platform-body">Рекомендации и доверие через обзоры. Сильный канал для категорий, где решает мнение людей и доказательства.</div>
+        </article>
+
+        <article class="platform-card" data-aos="fade-up" data-aos-delay="240">
+          <div class="platform-head">
+            <div class="pmark" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><circle cx="28" cy="30" r="16" fill="#07C160"/><circle cx="40" cy="38" r="14" fill="#07C160" opacity=".95"/><circle cx="22" cy="28" r="2.4" fill="#fff"/><circle cx="32" cy="28" r="2.4" fill="#fff"/></svg>
+            </div>
+            <div><h3>WeChat</h3></div>
+          </div>
+          <div class="platform-body">Мини-магазины, подписки, повторные покупки, работа с базой и партнёрами. Сильный канал для B2B и удержания.</div>
+        </article>
+
+        <!-- + TaoBao -->
+        <article class="platform-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="platform-head">
+            <div class="pmark" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="20" fill="#FF6A00"/><text x="32" y="39" text-anchor="middle" font-size="14" font-family="Inter,Arial" font-weight="900" fill="#fff">TB</text></svg>
+            </div>
+            <div><h3>TaoBao</h3></div>
+          </div>
+          <div class="platform-body">Товары с понятной ценностью и широкой конкуренцией. Часто выигрывают упаковка, ассортимент и скорость тестов.</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="audience" class="problem-section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Кому подходит</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="80">Сразу расставим рамки. Мы не “продаём мечту”. Мы строим управляемый контур продаж.</p>
+
+      <div class="what-grid">
+        <div class="what-item" data-aos="fade-up" style="min-height:auto;--accent:34 197 94;">
+          <i class="fas fa-check" aria-hidden="true"></i>
+          <h3>Кому подходит</h3>
+          <ul>
+            <li>Российским брендам и производителям, кто хочет продавать в Китае онлайн</li>
+            <li>Компаниям с готовым продуктом и возможностью обеспечить стабильные поставки</li>
+            <li>Тем, кто хочет план, прозрачные отчёты и управляемый рост</li>
+          </ul>
+        </div>
+
+        <div class="what-item" data-aos="fade-up" data-aos-delay="80" style="min-height:auto;--accent:239 68 68;">
+          <i class="fas fa-ban" aria-hidden="true"></i>
+          <h3>Кому не подходит</h3>
+          <ul>
+            <li>Если товара ещё нет и вы “просто смотрите рынок”</li>
+            <li>Если нужна “гарантия продаж” — мы так не работаем</li>
+            <li>Если нет ресурса на упаковку, тесты и регулярную работу 1–3 месяца</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="block-title" data-aos="fade-up">Что вы получите</div>
+      <div class="block-subtitle" data-aos="fade-up" data-aos-delay="80">Внятный план + цифры + дисциплина исполнения. Без театра ради отчёта.</div>
+
+      <div class="what-grid">
+        <div class="what-item" data-aos="fade-up" style="--accent:245 158 11;">
+          <i class="fas fa-calculator" aria-hidden="true"></i>
+          <h3>Понятную математику</h3>
+          <p>GMV (выручка) / CAC (цена привлечения клиента) / AOV (средний чек) / LTV (доход от клиента за время) — в одной логике.</p>
+        </div>
+
+        <div class="what-item" data-aos="fade-up" data-aos-delay="60" style="--accent:59 130 246;">
+          <i class="fas fa-magnifying-glass" aria-hidden="true"></i>
+          <h3>Проверку спроса до бюджетов</h3>
+          <p>Поймём, что реально покупают, по какой цене, и какие 3 товарные позиции стоит выводить первыми.</p>
+        </div>
+
+        <div class="what-item" data-aos="fade-up" data-aos-delay="120" style="--accent:168 85 247;">
+          <i class="fas fa-box-open" aria-hidden="true"></i>
+          <h3>Упаковку под Китай</h3>
+          <p>Не “перевод текста”, а адаптацию смысла покупки: доверие, причины выбрать, формат подачи, визуал.</p>
+        </div>
+
+        <div class="what-item" data-aos="fade-up" data-aos-delay="180" style="--accent:6 182 212;">
+          <i class="fas fa-diagram-project" aria-hidden="true"></i>
+          <h3>Контур продаж</h3>
+          <p>Контент → магазин → реклама → прямые эфиры → повторные покупки. Один план. Еженедельный контроль.</p>
+        </div>
+      </div>
+
+      <div class="block-title" data-aos="fade-up">Почему у многих не получается</div>
+      <div class="block-subtitle" data-aos="fade-up" data-aos-delay="80">Это обычно не “рынок плохой”, а процесс собран неправильно.</div>
+
+      <div class="what-grid">
+        <div class="what-item" data-aos="fade-up" style="grid-column:1/-1;min-height:auto;--accent:245 158 11;">
+          <i class="fas fa-triangle-exclamation" aria-hidden="true"></i>
+          <h3>Типовые ошибки</h3>
+          <ul>
+            <li>Делают контент без магазина — получается медиа, а не продажи</li>
+            <li>Делают магазин без трафика — витрина без людей</li>
+            <li>Льют трафик без оффера — дорогая статистика</li>
+            <li>Пытаются “сразу всё” вместо 3 сильных товарных позиций</li>
+            <li>Не считают экономику и удивляются, что прибыль не появляется</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" class="process">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Как мы работаем</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="80">Короткие циклы, контроль метрик, прозрачные решения: усиливаем то, что окупается, выключаем то, что не работает.</p>
+
+      <div class="steps-grid">
+        <div class="step-card" data-aos="fade-up">
+          <div class="step-num">01</div>
+          <h3>48 часов — быстрый скрининг</h3>
+          <ul>
+            <li>оценка категории и конкуренции</li>
+            <li>риски по документам и требованиям</li>
+            <li>предварительная модель экономики</li>
+            <li>план работ и сроков</li>
+          </ul>
+        </div>
+
+        <div class="step-card" data-aos="fade-up" data-aos-delay="60">
+          <div class="step-num">02</div>
+          <h3>7 дней — проверка спроса</h3>
+          <ul>
+            <li>спрос и ценовой коридор</li>
+            <li>3 товарные позиции для старта</li>
+            <li>гипотезы по офферу и упаковке</li>
+            <li>прогноз по ключевым метрикам</li>
+          </ul>
+        </div>
+
+        <div class="step-card" data-aos="fade-up" data-aos-delay="120">
+          <div class="step-num">03</div>
+          <h3>30–90 дней — запуск продаж</h3>
+          <ul>
+            <li>магазин и карточки товаров</li>
+            <li>контент-пакет под короткие видео</li>
+            <li>реклама и тест креативов</li>
+            <li>пилот прямых эфиров</li>
+            <li>еженедельный отчёт и корректировки</li>
+          </ul>
+        </div>
+
+        <!-- + 4-я ячейка -->
+        <div class="step-card" data-aos="fade-up" data-aos-delay="180">
+          <div class="step-num">04</div>
+          <h3>Квартал+ — длинные кампании и масштабирование</h3>
+          <ul>
+            <li>планирование сезонных волн и промо-календаря</li>
+            <li>серии креативов (не 1 ролик, а “пакеты” на месяц)</li>
+            <li>удержание: повторные покупки, база, CRM/WeChat-контур</li>
+            <li>рост через связки: контент → трафик → эфиры → ретеншн</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="packages" class="packages">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Пакеты</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="80">Выбирайте формат по стадии. Начать можно с быстрых ответов — затем масштабировать то, что уже работает.</p>
+
+      <div class="packages-grid">
+        <article class="package-card" data-aos="fade-up">
+          <div class="package-head">
+            <div class="left"><h3>ENTRY SPRINT</h3><div class="subtitle">Быстрый ответ: есть спрос или нет</div></div>
+            <div class="package-no">01</div>
+          </div>
+          <div class="package-body">
+            <h4>Включено</h4>
+            <ul>
+              <li>проверка спроса и цены</li>
+              <li>3 товарные позиции для старта</li>
+              <li>базовая экономика</li>
+              <li>план запуска на 30–90 дней</li>
+            </ul>
+            <div class="package-result">Результат: решение, стоит ли заходить и с чего начать.</div>
+            <div class="package-cta">
+              <a class="btn-mini primary" href="#contact"><i class="fas fa-bolt" aria-hidden="true"></i> Запросить план</a>
+              <a class="btn-mini" href="#faq"><i class="fas fa-circle-question" aria-hidden="true"></i> Уточнить детали</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="package-card" data-aos="fade-up" data-aos-delay="60">
+          <div class="package-head">
+            <div class="left"><h3>MARKET FIT</h3><div class="subtitle">“Попасть в покупателя” до запуска магазина</div></div>
+            <div class="package-no">02</div>
+          </div>
+          <div class="package-body">
+            <h4>Включено</h4>
+            <ul>
+              <li>локализация позиционирования и оффера</li>
+              <li>упаковка смыслов покупки под Китай</li>
+              <li>структура карточек и контент-углы</li>
+              <li>сценарии UGC (контент от пользователей)</li>
+            </ul>
+            <div class="package-result">Результат: подача товара, которую покупатель “считывает” и принимает.</div>
+            <div class="package-cta">
+              <a class="btn-mini primary" href="#contact"><i class="fas fa-bullseye" aria-hidden="true"></i> Нужен Market Fit</a>
+              <a class="btn-mini" href="#platforms"><i class="fas fa-store" aria-hidden="true"></i> Выбор площадки</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="package-card" data-aos="fade-up" data-aos-delay="120">
+          <div class="package-head">
+            <div class="left"><h3>STORE READY</h3><div class="subtitle">Магазин и инфраструктура под продажи</div></div>
+            <div class="package-no">03</div>
+          </div>
+          <div class="package-body">
+            <h4>Включено</h4>
+            <ul>
+              <li>подготовка магазина и структуры каталога</li>
+              <li>карточки товаров, визуал и описание</li>
+              <li>настройка базовой аналитики и целей</li>
+              <li>подготовка к bonded-подходу (где применимо)</li>
+            </ul>
+            <div class="package-result">Результат: витрина, которую не стыдно приводить в трафик.</div>
+            <div class="package-cta">
+              <a class="btn-mini primary" href="#contact"><i class="fas fa-cart-shopping" aria-hidden="true"></i> Запустить магазин</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="package-card" data-aos="fade-up" data-aos-delay="180">
+          <div class="package-head">
+            <div class="left"><h3>LAUNCH</h3><div class="subtitle">Запуск магазина и первых продаж</div></div>
+            <div class="package-no">04</div>
+          </div>
+          <div class="package-body">
+            <h4>Включено</h4>
+            <ul>
+              <li>контент-пакет и сценарии коротких видео</li>
+              <li>тест рекламы и креативов</li>
+              <li>запуск первых воронок и ретаргета</li>
+              <li>пилот прямых эфиров</li>
+            </ul>
+            <div class="package-result">Результат: первые продажи и понятные цифры по воронке.</div>
+            <div class="package-cta">
+              <a class="btn-mini primary" href="#contact"><i class="fas fa-rocket" aria-hidden="true"></i> Начать запуск</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="package-card" data-aos="fade-up" data-aos-delay="240">
+          <div class="package-head">
+            <div class="left"><h3>GROWTH</h3><div class="subtitle">Рост и стабильность</div></div>
+            <div class="package-no">05</div>
+          </div>
+          <div class="package-body">
+            <h4>Включено</h4>
+            <ul>
+              <li>еженедельный контроль метрик</li>
+              <li>контент + реклама + прямые эфиры</li>
+              <li>оптимизация воронки и повторных покупок</li>
+              <li>масштабирование того, что уже работает</li>
+            </ul>
+            <div class="package-result">Результат: рост выручки и управляемая прибыльность.</div>
+            <div class="package-cta">
+              <a class="btn-mini primary" href="#contact"><i class="fas fa-chart-line" aria-hidden="true"></i> Нужен рост</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="package-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="package-head">
+            <div class="left"><h3>PARTNER OPS</h3><div class="subtitle">Рост через партнёров и меньше зависимости от рекламы</div></div>
+            <div class="package-no">06</div>
+          </div>
+          <div class="package-body">
+            <h4>Включено</h4>
+            <ul>
+              <li>стратегия партнёрских продаж и дистрибуции</li>
+              <li>подключение партнёров и лидеров мнений под категорию</li>
+              <li>WeChat-контур для базы и повторных продаж</li>
+              <li>контроль условий, отчётности и эффективности</li>
+            </ul>
+            <div class="package-result">Результат: второй контур роста помимо рекламы и одного канала.</div>
+            <div class="package-cta">
+              <a class="btn-mini primary" href="#contact"><i class="fas fa-handshake" aria-hidden="true"></i> Нужны партнёры</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cases (сокращено до 4 + больше текста) -->
+  <section id="cases" class="cases">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Истории успеха</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="80">Примеры типовых сценариев роста: что делали, почему сработало, и какие метрики подтянули.</p>
+
+      <div class="cases-grid">
+        <article class="case-card" data-aos="fade-up">
+          <div class="case-head">
+            <div>
+              <h3>Кейс 1. Косметика ухода</h3>
+              <p>Запуск через доверие: доказательства, демонстрации, “до/после”, и аккуратная экономика по трафику.</p>
+            </div>
+            <span class="case-badge">Beauty</span>
+          </div>
+          <div class="case-body">
+            <div class="desc">Стартовали с 3 SKU и сделали “лестницу доверия”: обзор → сравнение → эфир → повторная покупка. Убрали лишние обещания, усилили причины верить.</div>
+            <ul>
+              <li>пересобрали карточки под боли и сценарии использования</li>
+              <li>прописали оффер под “почему сейчас” и “почему этот бренд”</li>
+              <li>развели трафик: холодный / тёплый / ретаргет</li>
+            </ul>
+            <div class="metrics">
+              <div class="metric"><div class="k">CAC</div><div class="v">−28%</div></div>
+              <div class="metric"><div class="k">AOV</div><div class="v">+19%</div></div>
+              <div class="metric"><div class="k">Повторка</div><div class="v">↑</div></div>
+            </div>
+          </div>
+          <div class="case-foot"><span>Результат: стабильные продажи</span><span>Рост повторных покупок</span></div>
+        </article>
+
+        <article class="case-card" data-aos="fade-up" data-aos-delay="60">
+          <div class="case-head">
+            <div>
+              <h3>Кейс 2. Бытовая техника</h3>
+              <p>Товар “сложный”: покупатель хочет понять, как работает, и где подвох. Сняли вопросы — выросла конверсия.</p>
+            </div>
+            <span class="case-badge">Tech</span>
+          </div>
+          <div class="case-body">
+            <div class="desc">Сделали контент “объяснение на пальцах”: демонстрации, сравнения, честные ограничения, сценарии “для кого подходит/не подходит”.</div>
+            <ul>
+              <li>пакет видео: 10 коротких + 2 длинных “разбор”</li>
+              <li>карточки: структура характеристик без воды + FAQ</li>
+              <li>сценарии эфиров: “проверка в реальном времени”</li>
+            </ul>
+            <div class="metrics">
+              <div class="metric"><div class="k">CR из рекламы</div><div class="v">+22%</div></div>
+              <div class="metric"><div class="k">Отказы</div><div class="v">−18%</div></div>
+              <div class="metric"><div class="k">Негатив</div><div class="v">↓</div></div>
+            </div>
+          </div>
+          <div class="case-foot"><span>Результат: больше покупок без сомнений</span><span>Меньше возвратов/споров</span></div>
+        </article>
+
+        <article class="case-card" data-aos="fade-up" data-aos-delay="120">
+          <div class="case-head">
+            <div>
+              <h3>Кейс 3. FMCG</h3>
+              <p>Категория “на частоте”: важны наборы, выгода, понятная причина повторять покупку.</p>
+            </div>
+            <span class="case-badge">FMCG</span>
+          </div>
+          <div class="case-body">
+            <div class="desc">Упор на комплекты и “логичный запас”: собрали линейку наборов и триггеры повторной покупки (база + ретаргет + офферы).</div>
+            <ul>
+              <li>пересобрали упаковку предложений: 1+1, наборы, подписка</li>
+              <li>подняли AOV за счёт комплектов</li>
+              <li>подключили ретеншн-сценарии на 14/30 дней</li>
+            </ul>
+            <div class="metrics">
+              <div class="metric"><div class="k">AOV</div><div class="v">+24%</div></div>
+              <div class="metric"><div class="k">LTV</div><div class="v">+31%</div></div>
+              <div class="metric"><div class="k">Прибыль</div><div class="v">↑</div></div>
+            </div>
+          </div>
+          <div class="case-foot"><span>Результат: рост без раздувания бюджета</span><span>Сильнее повторные продажи</span></div>
+        </article>
+
+        <article class="case-card" data-aos="fade-up" data-aos-delay="180">
+          <div class="case-head">
+            <div>
+              <h3>Кейс 4. B2B продукт</h3>
+              <p>Длинный цикл сделки: важны доверие, квалификация и “почему вы”. Продажи через контур базы и партнёров.</p>
+            </div>
+            <span class="case-badge">B2B</span>
+          </div>
+          <div class="case-body">
+            <div class="desc">Собрали WeChat-контур: точка входа → квалификация → материалы → созвон → сопровождение. Отсекли мусорные лиды, подняли долю целевых.</div>
+            <ul>
+              <li>лендинг/материалы: кейсы, цифры, рамки, FAQ</li>
+              <li>партнёрские входы и лидеры мнений “по теме”, не по охвату</li>
+              <li>контроль качества лида и скорость реакции</li>
+            </ul>
+            <div class="metrics">
+              <div class="metric"><div class="k">Стоимость лида</div><div class="v">−35%</div></div>
+              <div class="metric"><div class="k">В переговоры</div><div class="v">+27%</div></div>
+              <div class="metric"><div class="k">Поток</div><div class="v">↑</div></div>
+            </div>
+          </div>
+          <div class="case-foot"><span>Результат: устойчивые запросы</span><span>Больше целевых компаний</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">FAQ до старта</h2>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="80">Коротко и по делу. Если нужно — разберём на созвоне и зафиксируем рамки письменно.</p>
+
+      <div class="faq-list">
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>1. Сколько времени реально нужно до первых продаж?</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Если продукт готов и нет стоп-факторов по документам, первые продажи обычно появляются на этапе запуска. Цель — не “быстро”, а “повторяемо”.</div>
+        </div>
+
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>2. Вы даёте гарантию продаж?</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Нет. Мы даём систему, контроль метрик и управляемые действия. Гарантии в рекламе и продажах — сказки.</div>
+        </div>
+
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>3. Что вы попросите от нас на старте?</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Описание товара, цены, маржинальность, материалы фото/видео, подтверждение качества, планы по поставкам и кто принимает решения.</div>
+        </div>
+
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>4. Можно ли зайти в Китай с одним товаром?</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Можно и часто нужно. Один товар проще довести до стабильной экономики, потом расширять линейку.</div>
+        </div>
+
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>5. У нас уже есть продажи в России. Это поможет?</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Как база — да. Но Китай требует другой упаковки и логики доверия. Мы переносим сильные стороны и перестраиваем под местные ожидания.</div>
+        </div>
+
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>6. Как понять, на какой площадке стартовать?</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Выбираем по экономике и типу товара: импульс, доверие, логистика, аудитория, цена ошибки.</div>
+        </div>
+
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>7. Какие главные риски для производителя?</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Товар без локализации, неправильная цена, слабая карточка, отсутствие повторных продаж, недооценка документов и логистики.</div>
+        </div>
+
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>8. Что если товар “сложный” и его надо объяснять?</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Это нормально. Для таких товаров демонстрации и прямые эфиры работают особенно хорошо — при правильном сценарии и честной подаче.</div>
+        </div>
+
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>9. Сколько денег нужно на рекламу?</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Зависит от категории и цели. Мы стартуем с тестов креативов и аудиторий, затем масштабируем то, что окупается.</div>
+        </div>
+
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>10. Можно ли работать без топовых блогеров?</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Да. На старте чаще важнее UGC и грамотная реклама. Топовые блогеры подключаются, когда экономика подтверждена.</div>
+        </div>
+
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>11. Как вы контролируете качество работы?</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Еженедельный отчёт по метрикам + список решений: что усиливаем, что выключаем.</div>
+        </div>
+
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>12. Что если у нас нет контента?</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Соберём план производства: какие видео нужны, сколько, в каком формате, что можно снять быстро и без студий.</div>
+        </div>
+
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>13. Что если у нас нет команды на стороне клиента?</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Мы берём управление проектом на себя, но нужен один ответственный контакт, чтобы решения принимались быстро.</div>
+        </div>
+
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>14. Что если товар сезонный?</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Тогда особенно важно ускорять тест спроса и запускать короткими циклами.</div>
+        </div>
+
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>15. Как вы работаем с документами и легализацией?</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Фиксируем требования по категории, собираем список документов, выстраиваем безопасный путь. Подключаем нужных подрядчиков и контролируем процесс.</div>
+        </div>
+
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>16. Можно ли начать с bonded-подхода?</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Если категория и условия позволяют — да. Налог платится при продаже (где применимо). Применимость проверяем в начале.</div>
+        </div>
+
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>17. Мы боимся репутационных рисков и негатива. Что делаете?</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Закладываем честную подачу, ожидания, FAQ, сценарии обработки комментариев и возвратов. Негатив лечится ясностью.</div>
+        </div>
+
+        <div class="faq-item" data-aos="fade-up">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false"><span>18. Мы боимся, что “всё будет на китайском и мы ничего не поймём”.</span><i class="fas fa-chevron-down" aria-hidden="true"></i></div>
+          <div class="faq-a" aria-hidden="true">Отчёты и решения — на русском. Вы видите метрики и действия, а не набор иероглифов.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="cta" aria-label="Контакты и заявка">
+    <div class="container">
+      <div class="cta-grid">
+        <div class="cta-copy" data-aos="fade-up">
+          <h2>Получить план запуска за 48 часов</h2>
+          <p>Оставьте контакты — пришлём план работ и сроков. Хотите сначала “Проверить спрос за 7 дней” — отметьте стадию.</p>
+          <div style="margin-top:18px;display:flex;gap:10px;flex-wrap:wrap;">
+            <span class="pill"><i class="fas fa-lock" aria-hidden="true"></i> NDA по запросу</span>
+            <span class="pill"><i class="fas fa-chart-line" aria-hidden="true"></i> Метрики каждую неделю</span>
+            <span class="pill"><i class="fas fa-shield-alt" aria-hidden="true"></i> Bonded (где применимо)</span>
+          </div>
+        </div>
+
+        <div class="cta-panel" data-aos="fade-up" data-aos-delay="80">
+          <form id="quickForm">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="name">Имя</label>
+                <input type="text" id="name" name="name" required autocomplete="name" placeholder="Как к вам обращаться">
+              </div>
+
+              <div class="form-group">
+                <label for="company">Компания</label>
+                <input type="text" id="company" name="company" required autocomplete="organization" placeholder="Название компании">
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required autocomplete="email" placeholder="name@company.com">
+              </div>
+
+              <div class="form-group">
+                <label for="category">Товар/категория</label>
+                <select id="category" name="category" required>
+                  <option value="">Выберите категорию</option>
+                  <option value="cosmetics">Косметика</option>
+                  <option value="food">Продукты питания</option>
+                  <option value="electronics">Электроника</option>
+                  <option value="fashion">Одежда/мода</option>
+                  <option value="other">Другое</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="budget">Бюджет на запуск (в юанях)</label>
+                <select id="budget" name="budget" required>
+                  <option value="">Выберите диапазон</option>
+                  <option value="50k-150k">¥50K — ¥150K</option>
+                  <option value="150k-300k">¥150K — ¥300K</option>
+                  <option value="300k-600k">¥300K — ¥600K</option>
+                  <option value="600k-1m">¥600K — ¥1M</option>
+                  <option value="1m+">¥1M+</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="stage">Стадия</label>
+                <select id="stage" name="stage" required>
+                  <option value="">Выберите</option>
+                  <option value="screening">48 часов — быстрый скрининг</option>
+                  <option value="demand">7 дней — проверка спроса</option>
+                  <option value="launch">30–90 дней — запуск продаж</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group" style="margin-top:12px;">
+              <label for="comment">Комментарий (опционально)</label>
+              <textarea id="comment" name="comment" placeholder="Коротко: продукт, цена, объём, какие цели по продажам"></textarea>
+            </div>
+
+            <div class="check-row">
+              <input type="checkbox" id="nda" name="nda">
+              <label for="nda">Нужен NDA до созвона</label>
+            </div>
+
+            <div class="check-row">
+              <input type="checkbox" id="consent" name="consent" required>
+              <label for="consent">Согласен(на) на обработку данных для связи и подготовки предложения</label>
+            </div>
+
+            <div style="margin-top:12px;">
+              <button type="submit" class="cta-button" style="width:100%;min-width:0;">
+                <i class="fas fa-paper-plane" aria-hidden="true"></i> Получить план выхода в Китай
+              </button>
+            </div>
+
+            <div class="helper">
+              <p><i class="fas fa-lock" aria-hidden="true"></i> Без спама и холодных звонков</p>
+              <p><i class="fas fa-shield-alt" aria-hidden="true"></i> Bonded-подход: налог по факту продажи (где применимо)</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>NEXIMA Hub</h4>
+          <p style="color:rgba(255,255,255,.74);font-weight:650;line-height:1.55;">Запуск и рост продаж в Китае: выбор платформы, проверка спроса, упаковка, магазин, контент и перформанс.</p>
+        </div>
+
+        <div>
+          <h4>Контакты</h4>
+          <p style="margin-bottom:8px;"><a href="mailto:hello@nexima.com">hello@nexima.com</a></p>
+          <p style="color:rgba(255,255,255,.72);font-weight:650;font-size:12px;">NDA по запросу. Коммуникация и отчёты — на русском.</p>
+        </div>
+
+        <div>
+          <h4>Партнёры и платформы</h4>
+          <p style="color:rgba(255,255,255,.76);font-weight:650;">Douyin · Tmall · JD · Xiaohongshu · WeChat · Taobao</p>
+        </div>
+      </div>
+
+      <div class="footer-note">© <span id="year"></span> NEXIMA Hub. Информация на сайте носит ознакомительный характер и не является публичной офертой.</div>
+    </div>
+  </footer>
+
+  <div class="sticky-cta" id="stickyCta" aria-hidden="true">
+    <div class="left">
+      <div class="title">План запуска за 48 часов</div>
+      <div class="sub">С цифрами и контролем • GMV/CAC/AOV/LTV</div>
+    </div>
+    <div class="right">
+      <a class="btn" href="#contact">Оставить заявку</a>
+      <a class="link" href="mailto:hello@nexima.com">hello@nexima.com</a>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+  <script>
+    (function(){
+      const d=document,header=d.getElementById("header"),progress=d.querySelector(".scroll-progress"),sticky=d.getElementById("stickyCta"),year=d.getElementById("year");
+      if(year) year.textContent=new Date().getFullYear();
+
+      const prm=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if(prm || !window.AOS){ d.documentElement.classList.add("no-aos"); }
+      else { AOS.init({duration:800,easing:"ease-out-quart",once:true,offset:80}); }
+
+      function onScroll(){
+        const y=window.scrollY||0;
+        header && header.classList.toggle("scrolled", y>10);
+        const docH=document.documentElement.scrollHeight-window.innerHeight;
+        progress && (progress.style.width=(docH>0?Math.min(100,Math.max(0,(y/docH)*100)):0)+"%");
+        if(sticky){
+          const show=y>520;
+          sticky.classList.toggle("show",show);
+          sticky.setAttribute("aria-hidden", String(!show));
+        }
+      }
+      window.addEventListener("scroll", onScroll, {passive:true}); onScroll();
+
+      const menuBtn=d.getElementById("mobileMenuBtn"),menu=d.getElementById("mobileMenu"),overlay=d.getElementById("mobileOverlay"),closeBtn=d.getElementById("mobileCloseBtn");
+      const openMenu=()=>{menu.classList.add("open");overlay.classList.add("open");menu.setAttribute("aria-hidden","false");overlay.setAttribute("aria-hidden","false");};
+      const closeMenu=()=>{menu.classList.remove("open");overlay.classList.remove("open");menu.setAttribute("aria-hidden","true");overlay.setAttribute("aria-hidden","true");};
+      menuBtn&&menuBtn.addEventListener("click",openMenu);
+      overlay&&overlay.addEventListener("click",closeMenu);
+      closeBtn&&closeBtn.addEventListener("click",closeMenu);
+
+      const headerOffset=()=> (header?header.offsetHeight:80)+10;
+      d.querySelectorAll('a[href^="#"]').forEach(a=>{
+        a.addEventListener("click",(e)=>{
+          const id=a.getAttribute("href");
+          if(!id||id==="#") return;
+          const el=d.querySelector(id);
+          if(!el) return;
+          e.preventDefault(); closeMenu();
+          const top=el.getBoundingClientRect().top + window.pageYOffset - headerOffset();
+          window.scrollTo({top,behavior:prm?"auto":"smooth"});
+        });
+      });
+
+      d.querySelectorAll(".faq-item").forEach(item=>{
+        const q=item.querySelector(".faq-q"),a=item.querySelector(".faq-a");
+        if(!q||!a) return;
+        const toggle=()=>{
+          const isOpen=item.classList.toggle("open");
+          q.setAttribute("aria-expanded", String(isOpen));
+          a.setAttribute("aria-hidden", String(!isOpen));
+        };
+        q.addEventListener("click",toggle);
+        q.addEventListener("keydown",(ev)=>{ if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); toggle(); }});
+      });
+
+      const form=d.getElementById("quickForm");
+      form&&form.addEventListener("submit",(e)=>{e.preventDefault();alert("Спасибо! Мы свяжемся и пришлём план. Без спама, по делу.");form.reset();});
+    })();
+  </script>
+</body>
+</html>
