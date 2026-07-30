@@ -1,13 +1,26 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "routes": [
+  "redirects": [
     {
-      "src": "/.*",
-      "status": 410,
-      "headers": {
-        "Content-Type": "text/plain; charset=utf-8",
-        "X-Robots-Tag": "noindex, nofollow, noarchive"
-      }
+      "source": "/",
+      "destination": "https://neximahub.ru/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://neximahub.ru/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/:path*",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow, noarchive"
+        }
+      ]
     }
   ]
 }
