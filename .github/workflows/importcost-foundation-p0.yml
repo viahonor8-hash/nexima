@@ -5,6 +5,8 @@ on:
     paths:
       - '.github/workflows/importcost-foundation-p0.yml'
       - 'foundation-acquisition-runner/**'
+  pull_request:
+    branches: [foundation-acquisition-runner]
 permissions:
   contents: read
 jobs:
