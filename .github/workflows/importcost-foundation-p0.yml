@@ -1,0 +1,47 @@
+name: importcost-foundation-p0-acquisition
+on:
+  push:
+    branches: [foundation-acquisition-runner]
+    paths:
+      - '.github/workflows/importcost-foundation-p0.yml'
+      - 'foundation-acquisition-runner/**'
+permissions:
+  contents: read
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install acquisition tools
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y p7zip-full python3-venv
+          python3 -m venv .venv
+          .venv/bin/pip install --disable-pip-version-check dbfread
+          7z | head -5
+      - name: Acquire official P0 sources
+        run: |
+          set -euo pipefail
+          .venv/bin/python foundation-acquisition-runner/run_p0.py
+      - name: Upload source evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: importcost-foundation-p0-source-bundle
+          path: |
+            runner-output/
+            OFFICIAL_SOURCE_BUNDLE.zip
+            OFFICIAL_SOURCE_BUNDLE.zip.sha256
+          if-no-files-found: error
+          retention-days: 30
+      - name: Enforce acquisition gate
+        run: |
+          python3 - <<'PY'
+          import json
+          g=json.load(open('runner-output/ACQUISITION_GATE.json'))
+          print(g)
+          missing=[k for k,v in g.items() if not v]
+          if missing: raise SystemExit('P0_ACQUISITION_INCOMPLETE:'+','.join(missing))
+          PY
