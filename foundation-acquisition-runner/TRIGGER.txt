@@ -1,3 +1,3 @@
 ImportCost Regulatory Data Foundation acquisition trigger
-Generated: 2026-08-21T14:48:00+08:00
-Purpose: trigger the existing isolated runner after separating Honest Sign official CRPT attribute acquisition from the long P0 job. Run both workflows; preserve P0 outputs and the independent Honest Sign attribute bundle. No merge into NEXIMA main is intended.
+Generated: 2026-08-21T15:02:00+08:00
+Purpose: rerun existing isolated runner using bounded-concurrency CRPT attribute acquisition while preserving P0 acquisition. No merge into NEXIMA main is intended.
