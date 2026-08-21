@@ -5,18 +5,24 @@ import concurrent.futures, hashlib, html, json, pathlib, re, time, urllib.reques
 INDEX='https://markirovka.ru/knowledge/tovarnye-gruppy/obschie-voprosy-gis/vnesenie-izmeneniy-v-atributy-kartochek-tovarov-v-kmt'
 ROOT=pathlib.Path('honest-sign-attributes-output'); RAW=ROOT/'raw'
 ROOT.mkdir(parents=True,exist_ok=True); RAW.mkdir(parents=True,exist_ok=True)
-UA='Mozilla/5.0 (X11; Linux x86_64) ImportCost-Regulatory-Foundation/1.1'
+UA='Mozilla/5.0 (X11; Linux x86_64) ImportCost-Regulatory-Foundation/1.2'
+
+def ascii_url(url):
+    p=urllib.parse.urlsplit(url)
+    path=urllib.parse.quote(urllib.parse.unquote(p.path), safe='/')
+    query=urllib.parse.quote(urllib.parse.unquote(p.query), safe='=&%')
+    return urllib.parse.urlunsplit((p.scheme,p.netloc,path,query,p.fragment))
 
 def fetch(url, attempts=2, timeout=20):
-    hist=[]
+    hist=[]; request_url=ascii_url(url)
     for i in range(1,attempts+1):
         try:
-            req=urllib.request.Request(url,headers={'User-Agent':UA,'Accept':'*/*'})
+            req=urllib.request.Request(request_url,headers={'User-Agent':UA,'Accept':'*/*'})
             with urllib.request.urlopen(req,timeout=timeout) as r:
                 data=r.read(); hdr={k.lower():v for k,v in r.headers.items()}
-                return data, getattr(r,'status',200), r.geturl(), hdr, hist+[{'attempt':i,'ok':True,'status':getattr(r,'status',200),'bytes':len(data)}]
+                return data, getattr(r,'status',200), r.geturl(), hdr, hist+[{'attempt':i,'ok':True,'status':getattr(r,'status',200),'bytes':len(data),'requestUrl':request_url}]
         except Exception as e:
-            hist.append({'attempt':i,'ok':False,'error':type(e).__name__+': '+str(e)[:500]})
+            hist.append({'attempt':i,'ok':False,'error':type(e).__name__+': '+str(e)[:500],'requestUrl':request_url})
             if i<attempts: time.sleep(i)
     return None,None,None,{},hist
 
@@ -37,17 +43,12 @@ def acquire(item):
     sha=None
     if data:
         (RAW/safe).write_bytes(data); sha=hashlib.sha256(data).hexdigest()
-    return {'ordinal':n,'url':url,'finalUrl':final,'httpStatus':status,'contentType':hdr.get('content-type'),
-      'etag':hdr.get('etag'),'lastModified':hdr.get('last-modified'),'filename':safe if data else None,'bytes':len(data) if data else 0,
-      'sha256':sha,'xlsxMagicValid':media_ok,'attempts':attempts,'acquired':media_ok}
+    return {'ordinal':n,'url':url,'requestUrl':ascii_url(url),'finalUrl':final,'httpStatus':status,'contentType':hdr.get('content-type'),'etag':hdr.get('etag'),'lastModified':hdr.get('last-modified'),'filename':safe if data else None,'bytes':len(data) if data else 0,'sha256':sha,'xlsxMagicValid':media_ok,'attempts':attempts,'acquired':media_ok}
 
 with concurrent.futures.ThreadPoolExecutor(max_workers=min(12,max(1,len(links)))) as ex:
     results=list(ex.map(acquire,enumerate(links,1)))
 results.sort(key=lambda r:r['ordinal'])
-summary={'authority':'CRPT / GIS MT','sourceRole':'OFFICIAL_OPERATIONAL_SOURCE','indexUrl':INDEX,
- 'indexHttpStatus':status,'indexSha256':hashlib.sha256(page).hexdigest(),'discovered':len(links),
- 'acquired':sum(1 for r in results if r['acquired']),'failed':sum(1 for r in results if not r['acquired']),
- 'expectedByFoundation':44,'allFetched':len(links)>=40 and all(r['acquired'] for r in results),'records':results}
+summary={'authority':'CRPT / GIS MT','sourceRole':'OFFICIAL_OPERATIONAL_SOURCE','indexUrl':INDEX,'indexHttpStatus':status,'indexSha256':hashlib.sha256(page).hexdigest(),'discovered':len(links),'acquired':sum(1 for r in results if r['acquired']),'failed':sum(1 for r in results if not r['acquired']),'expectedByFoundation':51,'allFetched':len(links)>=40 and all(r['acquired'] for r in results),'records':results}
 (ROOT/'HONEST_SIGN_ATTRIBUTE_ACQUISITION.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')
 with zipfile.ZipFile(ROOT/'HONEST_SIGN_ATTRIBUTE_RAW_BUNDLE.zip','w',compression=zipfile.ZIP_DEFLATED) as z:
     for p in sorted(RAW.glob('*')): z.write(p,p.relative_to(ROOT))
