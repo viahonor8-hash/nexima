@@ -27,6 +27,11 @@ jobs:
         run: |
           set -euo pipefail
           .venv/bin/python foundation-acquisition-runner/run_p0.py
+      - name: Acquire Honest Sign official attribute templates
+        if: always()
+        run: |
+          set -euo pipefail
+          .venv/bin/python foundation-acquisition-runner/run_honest_sign_attributes.py
       - name: Upload source evidence
         if: always()
         uses: actions/upload-artifact@v4
@@ -36,6 +41,15 @@ jobs:
             runner-output/
             OFFICIAL_SOURCE_BUNDLE.zip
             OFFICIAL_SOURCE_BUNDLE.zip.sha256
+          if-no-files-found: error
+          retention-days: 30
+      - name: Upload Honest Sign attribute evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: importcost-honest-sign-attribute-bundle
+          path: |
+            honest-sign-attributes-output/
           if-no-files-found: error
           retention-days: 30
       - name: Enforce acquisition gate
