@@ -1,3 +1,4 @@
-ImportCost Regulatory Data Foundation P0 acquisition trigger
-Generated: 2026-08-20T20:10:00+08:00
-Purpose: execute clean Ubuntu outbound acquisition for EAEU TNVED/ETT 96/96, PRC 2026 MOF+GACC nomenclature, and CMCODE2026B official replicas.
+ImportCost Regulatory Data Foundation acquisition trigger
+Generated: 2026-08-21T14:41:00+08:00
+Purpose: rerun the existing clean-Ubuntu acquisition sidecar after adding official CRPT/GIS MT Honest Sign product-attribute XLSX acquisition. Preserve all P0 acquisition outputs and additionally collect the current official attribute templates from markirovka.ru into a SHA256-tracked artifact.
+No merge into NEXIMA main is intended.
