@@ -1,0 +1,40 @@
+name: importcost-honest-sign-attributes-acquisition
+on:
+  pull_request:
+    branches: [foundation-acquisition-runner]
+  push:
+    branches: [foundation-acquisition-runner]
+    paths:
+      - '.github/workflows/importcost-honest-sign-attributes.yml'
+      - 'foundation-acquisition-runner/run_honest_sign_attributes.py'
+permissions:
+  contents: read
+jobs:
+  acquire-honest-sign-attributes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Acquire current official CRPT attribute templates
+        run: |
+          set -euo pipefail
+          python3 foundation-acquisition-runner/run_honest_sign_attributes.py
+      - name: Upload immutable operational evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: importcost-honest-sign-attribute-bundle
+          path: honest-sign-attributes-output/
+          if-no-files-found: error
+          retention-days: 30
+      - name: Enforce discovery/acquisition completeness
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          p='honest-sign-attributes-output/HONEST_SIGN_ATTRIBUTE_ACQUISITION.json'
+          d=json.load(open(p))
+          print({k:d[k] for k in ('discovered','acquired','failed','allFetched')})
+          if d['discovered'] < 40 or d['acquired'] != d['discovered']:
+              raise SystemExit('HONEST_SIGN_ATTRIBUTE_ACQUISITION_INCOMPLETE')
+          PY
